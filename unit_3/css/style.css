@@ -1,0 +1,63 @@
+body {
+	color: #2A5EFF; 
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+}
+
+main {
+	font-size: 22px;
+	background-image: url(../images/freeme.jpeg); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 300px;
+	margin: 20px 0;
+}
+
+h1 {
+	font-size: 30px;
+	font-family: "Cinzel", Arial, serif;
+	font-weight: 700;
+	background-color: #A9A8BB;
+	padding: 20px;
+	border: 8px solid #1BFAFF;
+	margin: 20px;
+}
+
+h2 {
+	font-size: 40px;
+	font-family: "Montserrat", sans-serif;
+	text-align: left;
+}
+
+nav {
+	text-align: right;
+}
+
+div {
+
+}
+
+.navlinks {
+	color: #2A5EFF;
+	font-size: 12px;
+	font-weight: 100;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 12px;
+}
+
+.cities {
+	width: 300px;
+	display: inline-block;
+	margin: 20px;
+}
+
+#mainlink {
+	color: #1BFAFF;
+	text-decoration: none;
+}
+
+#footerlink {
+	color: #1BFAFF;
+	text-decoration: none;
+}
