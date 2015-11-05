@@ -1,44 +1,47 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,900,700);
 @import url(https://fonts.googleapis.com/css?family=Cinzel:400,700,900);
 
 body {
 	color: #2A5EFF; 
-	font-family: "Montserrat", sans-serif;
-	text-align: center;
+	font-family: "Montserrat", serif;
+	font-size: 16px;
 }
 
 main {
-	font-size: 16px;
 	background-image: url(../images/freeme.jpeg); 
 	background-size: cover;
 	background-repeat: no-repeat;
-/*	text-align: center;
-*/	padding: 300px;
-	margin: 20px 0;
+	padding: 18.75em;
+	margin: 1.25em 0;
 }
 
 h1 {
 	font-size: 2em;
-	font-family: "Cinzel", Arial, serif;
+	font-family: "Cinzel", Georgia, serif;
 	font-weight: 700;
 	background-color: #A9A8BB;
-	padding: 20px;
-	border: 8px solid #1BFAFF;
-	margin: 2em auto 2em;
+	padding: 1em;
+	border: .25em solid #1BFAFF;
+	margin: 1.5em auto 1.5em;
+	text-align: center;
 }
 
 h2 {
 	font-size: 3em;
-	font-family: "Montserrat", sans-serif;
-/*	text-transform: small caps; ***FIGURE OUT HOW TO DO***
-*/	text-align: left;
+	font-family: "Playfair Display", serif;
+	text-align: left;
 }
 
 p {
-	font-size: 1.25em;
-	line-height: 1.8em;
+	line-height: 1.5em;
 	width: 37.5em;
 	text-align: left;
+}
+
+ul {
+	text-align: left;
+	line-height: 1.5em;
 }
 
 nav {
@@ -51,11 +54,10 @@ div {
 
 .navlinks {
 	color: #2A5EFF;
-	font-size: .8em;
-	font-weight: 100;
+	font-size: .8em;	
 	text-decoration: none;
 	text-transform: uppercase;
-	padding: 12px;
+	padding: 1.5em;
 }
 
 .navlink:link {
@@ -65,15 +67,21 @@ div {
 }
 
 .navlink:hover {
+	background-color: black;
 }
 
 .navlink:active {
 }
 
 .cities {
-	width: 300px;
+	width: 18.75em;
 	display: inline-block;
-	margin: 20px;
+	margin: 1.25em;
+}
+
+.footerlink {
+	color: #2A5EFF;
+	text-decoration: none;
 }
 
 #mainlink {
@@ -81,7 +89,3 @@ div {
 	text-decoration: none;
 }
 
-#footerlink {
-	color: #1BFAFF;
-	text-decoration: none;
-}
