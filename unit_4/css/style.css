@@ -8,12 +8,19 @@ body {
 	font-size: 16px;
 }
 
-main {
-	background-image: url(../images/freeme.jpeg); 
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding: 18.75em;
-	margin: 1.25em 0;
+header {
+	padding: 1.5em;
+	font-size: .9em;
+}
+
+nav {
+	padding: 1.5em;
+	float: right;
+	background-color: white;
+}
+
+footer {
+	background-color: #CFFFF4;
 }
 
 h1 {
@@ -44,20 +51,21 @@ ul {
 	line-height: 1.5em;
 }
 
-nav {
-	text-align: right;
-}
-
-div {
-
-}
-
 .navlinks {
 	color: #2A5EFF;
-	font-size: .8em;	
+	font-size: .9em;	
 	text-decoration: none;
 	text-transform: uppercase;
-	padding: 1.5em;
+	padding: 1em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0px;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 
 .navlink:link {
@@ -67,7 +75,6 @@ div {
 }
 
 .navlink:hover {
-	background-color: black;
 }
 
 .navlink:active {
@@ -84,8 +91,32 @@ div {
 	text-decoration: none;
 }
 
+#hero {
+	background-image: url(../images/freeme.jpeg); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 18.75em;
+	margin: 1em 0;
+
+}
+
 #mainlink {
 	color: #1BFAFF;
 	text-decoration: none;
 }
 
+#destinations {
+	background-color: #CFFFF4;
+}
+
+#bucketlist {
+	background-color: #CFFFF4;
+}
+
+#about {
+	background-color: #CFFFF4;
+}
+
+#contact {
+	background-color: ##CFFFF4;
+}
