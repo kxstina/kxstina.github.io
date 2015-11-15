@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,600);
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,600,700);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,900,700);
 
 body {
@@ -31,6 +31,7 @@ h2 {
 	font-weight: 700;
 	text-align: left;
 	padding: 10px;
+	margin: 30px 0 0;
 /*	border-bottom: 3px solid #323535;
 */}
 
@@ -118,10 +119,6 @@ footer {
 	width: 31.33%;
 }
 
-.inline-block {
-	display: inline-block;
-}
-
 .navlinks {
 	font-family: "Raleway", serif;
 	text-decoration: none;
@@ -163,7 +160,7 @@ footer {
 	color: #5386E4;
 }
 
-.header {
+#heroheader {
 	position: absolute;
 	top: 50%;
 	text-align: center;
@@ -211,14 +208,14 @@ footer {
 }
 
 #bucketlist {
-    background-color: #FFB7CF; /*cancel out if testing*/
-    border: 1px solid black;
-    width: 100%;
+/*    background-color: #FFB7CF;*/ /*cancel out if testing*/
+/*    border: 1px solid black;
+*/    width: 100%;
 }
 
 #left {
-    background-color: #E582A2;
-    border: 1px solid black; /*cancel out if testing*/
+/*    background-color: #E582A2;*/
+ /*   border: 1px solid black;*/ /*cancel out if testing*/
 	float: left;
     width: 63%;
     height: 400px;
@@ -226,11 +223,15 @@ footer {
 }
 
 #right {
-    background-color: #E55B88;
-    border: 1px solid black; /*cancel out if testing*/
+/*    background-color: #E55B88;*/
+ /*   border: 1px solid black;*/ /*cancel out if testing*/
     float: right;
     width: 31%;
  	margin: 1%;
+}
+
+#legend {
+	font-weight: 700;
 }
 
 #wrap {
@@ -304,7 +305,7 @@ footer {
 		font-size: 1.5em;
 	}
 
-	.header {
+	#heroheader {
 		font-size: 2em;
 	}
 }
@@ -327,17 +328,34 @@ footer {
 		margin: 5% auto;
 	}
 
-#about {
-	width: 98%;
-	margin: 2%;
-	float: none;
-}
+	#left {
+/*    background-color: #E582A2;*/
+ /*   border: 1px solid black;*/ /*cancel out if testing*/
+		float: none;
+    	width: 90%;
+    	height: 400px;
+    	margin: 5%;
+	}
 
-#contact {
-	width: 98%;
-	margin: 2%;
-	float: none;
-}
+	#right {
+/*    background-color: #E55B88;*/
+ /*   border: 1px solid black;*/ /*cancel out if testing*/
+    	float: none;
+    	width: 90%;
+ 		margin: 5%;
+	}
+
+	#about {
+		width: 98%;
+		margin: 2%;
+		float: none;
+	}
+
+	#contact {
+		width: 98%;
+		margin: 2%;
+		float: none;
+	}	
 }
 
 @media screen and (max-width:500px){
