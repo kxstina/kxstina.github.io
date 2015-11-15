@@ -49,11 +49,11 @@ a:hover {
 	color: #5386E4;
 }
 
-figure {
+/*figure {
 	float: left;
 	margin: 1%;
 	width: 31.33%;
-}
+}*/
 
 figcaption {
 	text-align: center;
@@ -102,6 +102,12 @@ label {
 li {
   display: inline-block;
   margin: 0px 20px;
+}
+
+.destination {
+	float: left;
+	margin: 1%;
+	width: 31.33%;
 }
 
 .inline-block {
@@ -284,7 +290,7 @@ li {
 }
 
 @media screen and (max-width:860px){
-	figure {
+	.destination {
 		width: 48%;
 		margin: 1%;
 	}
@@ -295,7 +301,7 @@ li {
 }
 
 @media screen and (max-width:600px){
-	figure {
+	.destination {
 		width: 90%;
 		float: none;
 		margin: 5% auto;
@@ -313,7 +319,7 @@ li {
 		padding: 20px;
 	}
 
-	figure {
+	.destination {
 		width: 100%;
 	}
 }
