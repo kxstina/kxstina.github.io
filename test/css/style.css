@@ -188,8 +188,8 @@ li {
 
 #rightmenu {
 	float: right;
-	border: 1px solid orange;
-	display: inline-block;
+/*	border: 1px solid orange;
+*/	display: inline-block;
 	vertical-align: top;
 	line-height: 80px;
 }
