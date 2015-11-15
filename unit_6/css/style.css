@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
-@import url(https://fonts.googleapis.com/css?family=Cinzel:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,900);
 
 body {
 	color: #000; 
@@ -9,12 +9,13 @@ body {
 
 header {
     background-color: #FFED74;
-    border: 1px black solid;
+    border: 1px solid black;
 }
 
 section {
 	width: 100%;
 	background-color: #E89C6C;
+    border: 1px solid black;
 }
 
 div {
@@ -25,14 +26,14 @@ div {
 figure {
 	float: left;
 	margin: 1%;
-	width: 31%;
+	width: 30%;
 }
 
 figcaption {
 	text-align: center;
 	padding: 2px;
-	font-family: "Cinzel", Georgia, serif;
-	font-size: 1.5em;
+	font-family: "Playfair Display", Georgia, serif;
+	font-size: 1.2em;
 }
 
 img {
@@ -42,12 +43,8 @@ img {
 
 footer {
     background-color: #FF957E;
-    border: 1px black solid;
+    border: 1px solid black;
     padding: 20px;
-}
-
-img {
-	width:100%;
 }
 
 li img {
@@ -55,11 +52,13 @@ li img {
 }
 
 h1 {
-	font-size: 3em;
-	font-family: "Cinzel", Georgia, serif;
-	font-weight: 700;
+	font-size: 2.5em;
+	font-family: "Playfair Display", Georgia, serif;
+	font-weight: 900;
+	background-color: #A9A8BB;
+	padding: .5em;
+	border: .25em solid #1BFAFF;
 	text-align: center;
-	padding: 20px;
 }
 
 h2 {
@@ -79,37 +78,38 @@ a {
 }
 
 a:hover {
-	color: #FF69B4;
+	color: #1BFAFF;
 	text-transform: uppercase;
 }
 
 .navlinks {
 	font-family: "Montserrat", serif;
 	text-decoration: none;
-	color: #000;
+	color: #2a5eff;
 	text-transform: uppercase;
+	font-size: 1em;
 }
 
 .navigation-bar {
     width: 100%;
     height: 100%;
-    background-color: #E8C66A;
+    background-color: #fff;
 }
 
 .logo {
     display: inline-block;
     vertical-align: top;
-    width: 150px;
+    width: 100px;
 	padding: 10px;
 }
 
 .navigation-bar > a {
     display: inline-block;
-    vertical-align: top;
+    vertical-align:  top;
     margin-right: 20px;
 	line-height: 60px;
     float: right;
-    padding: 5px;
+    padding: 2px;
 }
 
 .clearfix:after {
@@ -122,23 +122,31 @@ a:hover {
 }
 
 #hero {
-	background-color: #FFE2B8;
-    border: 1px black solid;
+	background-image: url(../images/freeme.jpeg); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 18.75em;
+	margin: 1em 0;
+}
+
+#mainlink {
+	color: #1BFAFF;
+	text-decoration: none;
 }
 
 #destinations {
 	background-color: #E89C6C;
-    border: 1px black solid;
+    border: 1px solid black;
 }
 
 #bucketlist {
 	background-color: #FFE2B8;
-    border: 1px black solid;
+    border: 1px solid black;
 }
 
 #about {
 	background-color: #FFE2B8;
-    border: 1px black solid;
+    border: 1px solid black;
 }
 
 iframe {
@@ -150,13 +158,13 @@ iframe {
 
 #two_column {
     background-color: #FFB7CF;
-    border: 1px black solid;
+    border: 1px solid black;
     width: 100%;
 }
 
 #left {
     background-color: #E582A2;
-    border: 1px black solid;
+    border: 1px solid black;
 	float: left;
     width: 60%;
     height: 400px;
@@ -165,9 +173,12 @@ iframe {
 
 #right {
     background-color: #E55B88;
-    border: 1px black solid;
+    border: 1px solid black;
     float: right;
     width: 30%;
  	margin: 20px;
+}
 
+#wrapper {
+	width: 80%;
 }
