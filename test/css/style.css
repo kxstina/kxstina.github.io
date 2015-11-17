@@ -101,7 +101,8 @@ hr {
 label {
   display: none;
   padding: 1em 0 1em 1em;
-}
+/*  border: 1px solid red;
+*/}
 
 li {
   display: inline-block;
@@ -136,7 +137,7 @@ footer {
     background-color: #E5FFFA;
     /*border: 1px solid red;*/ /*testing tool*/
 }
-
+/* DONT THINK I NEED
 .navigation-bar > a {
     display: inline-block;
     vertical-align: top;
@@ -145,7 +146,7 @@ footer {
     float: right;
     padding: .5em;
 }
-
+*/
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -193,7 +194,7 @@ footer {
 */	display: inline-block;
 	vertical-align: top;
 	line-height: 2.75em;
-	padding: .5em;
+	padding: .65em;
 	margin: 0em 1em;
 }
 
@@ -253,8 +254,7 @@ footer {
 #menu {
 	display: block;
 	list-style: none;
-/*	padding:0 0 7px;
-*/}
+}
 
 #about {
 	width: 48%;
@@ -272,27 +272,14 @@ footer {
 	color: #5386E4;
 }
 
-@media only screen and (max-width:1180px){
-	#wrap {
-		width: 100%;
-	}
-}
-
-@media only screen and (max-width:1090px){
-	#wrap {
-		width: 100%;
-	}
-}
-
-@media only screen and (max-width:900px) {
-  
+@media only screen and (max-width:910px) {
 	li {
 		display: block;
 	}
   
 	label {
 		display: block;
-		padding: 34px;
+		padding: 1.5em;
 	}
 
 	.destination {
@@ -300,13 +287,8 @@ footer {
 		margin: 1%;
 	}
 
-	#menu ul li {
-		float: none;
-	}
-
 	#menu {
 		display:none;
-
 	}
 
 	.navlinks {
@@ -317,12 +299,15 @@ footer {
 	#input:checked + #menu {
 		display: block;
 		background-color: #E5FFFA;
-		height: 12em;
-		opacity:0.7;
 	}
   
 	#leftlogo {
 		margin: 0em;
+		font-size: .8em;
+		/*border: 1px solid red;*/
+ 		vertical-align: middle; 
+  		text-align: center; 
+  		padding: 1em 0;
 	} 
   
 	#logolink {
@@ -331,34 +316,6 @@ footer {
 
 	#heroheader {
 		font-size: 2em;
-	}
-}
-
-@media only screen and (max-width:860px){
-
-	h1 {
-		font-size: 1.5em;
-	}
-}
-
-@media only screen and (max-width:600px){
-	.destination {
-		width: 90%;
-		float: none;
-		margin: 5% auto;
-	}
-
-	#left {
-		float: none;
-    	width: 90%;
-    	height: 20em;
-    	margin: 5%;
-	}
-
-	#right {
-    	float: none;
-    	width: 90%;
- 		margin: 5%;
 	}
 
 	#about {
@@ -374,17 +331,47 @@ footer {
 	}	
 }
 
-@media only screen and (max-width:500px){
-	h1 {
+@media only screen and (max-width:600px){
+	.destination {
+		width: 90%;
+		float: none;
+		margin: 5% auto;
+	}
+
+	#heroheader {
+		font-size: 1.5em;
+	}
+
+	#left {
+		float: none;
+    	width: 90%;
+    	height: 20em;
+    	margin: 5%;
+	}
+
+	#right {
+    	float: none;
+    	width: 90%;
+ 		margin: 5%;
+	}
+
+	#logolink {
 		font-size: 1.2em;
+	}
+
+	#leftlogo {
+		padding: 1em 0;
+	}
+}
+
+@media only screen and (max-width:500px){
+	label {
+  		padding: 1.5em 1em 0 0em;
+  		border: none;
 	}
 }
 
 @media only screen and (max-width:450px){
-	label {
-		padding: 1em;
-	}
-
 	.destination {
 		width: 100%;
 	}
