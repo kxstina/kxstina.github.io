@@ -221,20 +221,20 @@ footer {
 */    width: 100%;
 }
 
-#left {
+.left {
 /*    background-color: #E582A2;*/
  /*   border: 1px solid black;*/ /*cancel out if testing*/
 	float: left;
-    width: 63%;
+    width: 60%;
     height: 20em;
     margin: 1%;
 }
 
-#right {
+.right {
 /*    background-color: #E55B88;*/
  /*   border: 1px solid black;*/ /*cancel out if testing*/
     float: right;
-    width: 31%;
+    width: 25%;
  	margin: 1%;
 }
 
@@ -254,6 +254,10 @@ footer {
 #menu {
 	display: block;
 	list-style: none;
+}
+
+#aboutcontact {
+	width: 100%;
 }
 
 #about {
@@ -307,7 +311,7 @@ footer {
 		/*border: 1px solid red;*/
  		vertical-align: middle; 
   		text-align: center; 
-  		padding: 1em 0;
+  		padding: 1em .8em;
 	} 
   
 	#logolink {
@@ -360,7 +364,7 @@ footer {
 	}
 
 	#leftlogo {
-		padding: 1em 0;
+  		padding: 1em .4em;
 	}
 }
 
